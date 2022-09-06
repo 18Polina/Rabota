@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ПРАКТИЧЕСКАЯ РАБОТА</title>
+</head>
+<body>
+<form th:action = "${'/Add/Teacher'}" method="post">
+    <input type="text" name="surname" placeholder="Фамилия преподавателя"><br>
+    <input type="text" name="name" placeholder="Имя преподавателя"><br>
+    <input type="text" name="middlename" placeholder="Отчество преподавателя"></input><br>
+    <input type="date" name="bthday" placeholder="Дата рождения"></input><br>
+    <input type="text" name="yearprepodav" placeholder="Год начала преподавания"></input><br>
+    <button type="submit"> Добавить преподавателя</button>
+</form>
+</body>
+</html>
